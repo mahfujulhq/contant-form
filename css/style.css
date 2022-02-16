@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    box-shadow: 0px 1px 2px -1px #80808082;
+}
+
+.nav-container a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.nav-list ul{
+    margin: 0;
+    padding: 0;
+}
+.nav-list ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.icons a{
+    margin-right: 20px;
+}
+
+.login-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 5px solid;
+    border-image: linear-gradient(185deg, #ff512f, #dd2476);
+    border-image-slice: 1;
+    padding: 10px;
+    box-shadow: 0 0 4px #80808082;
+}
+#form-container input,
+button{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 1.3em;
+    margin-top: 20px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+#form-container input[type="submit"]{
+    width: 280px;
+    background: linear-gradient(17deg,tomato,orange);
+    border: none;
+    padding: 8px 0;
+    color: aliceblue;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+::placeholder{
+    color: rgb(187, 186, 186);
+    font-size: 16px;
+}
+
+#login-text{
+    font-size: 30px;
+    background: linear-gradient(185deg, #ff512f, #dd2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
